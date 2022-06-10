@@ -22,16 +22,16 @@ If you do not have python installed, then you can follow these [instrutions](htt
 * Downloading to your local destination folder:
   Open Git Bash, ensur you change your current working directory to the destination folder you intend to clone the code into. Then type the following command and then press __Enter__
 ```log
-  $ git clone .......
+$ git clone .......
 ```
  * Run the script
   To run the code locally then, all you need to do is type the folowing commmand in your Git Bash
 ```log
-   $ python email_labeler.py
+ $ python email_labeler.py
 ```
   * To run test code , you need to type this command
 ```log
-   $ python test_email_labeler.py
+ $ python test_email_labeler.py
 ```
 
 ## A few possible modifications
