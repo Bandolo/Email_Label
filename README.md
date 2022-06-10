@@ -21,24 +21,24 @@ If you do not have python installed, then you can follow these [instrutions](htt
   While on GitHub, n go to the main page of the project's reporsitory and above the list of the 03 files, click on the green __Code__ button.Copy the url that appears (the default is HTTPS).
 * Downloading to your local destination folder:
   Open Git Bash, ensur you change your current working directory to the destination folder you intend to clone the code into. Then type the following command and then press __Enter__
-  ```log
+```log
   $ git clone .......
-  ```
+```
  * Run the script
   To run the code locally then, all you need to do is type the folowing commmand in your Git Bash
-    ```log
-    $ python email_labeler.py
-    ```
+```log
+   $ python email_labeler.py
+```
   * To run test code , you need to type this command
-    ```log
-    $ python test_email_labeler.py
-    ```
+```log
+   $ python test_email_labeler.py
+```
 
 ## A few possible modifications
   1. An input prompt could be added to the __email_labeler.py__ script, which would ask the user to input an email message, and then the script will return a label  with the classification of the email.
-  So the 02 lines below will prompt the user to input an email and also call the __email_labeler.py function to return the results of the classification.
-    ```log
+  So the 02 lines below will prompt the user to input an email and also call the __email_labeler.py__ function to return the results of the classification.
+ ```log
     email = input("Please copy and paste the email here: ")
     print(f'Label Results: {email_label("share",email)}')
-    ```
+ ```
    2. A third label could be added to clasify future intentions to share the teacher's email. The third label could be "Student will share". Phrases like "I shall share" or "I will share" would fit into this third class.
